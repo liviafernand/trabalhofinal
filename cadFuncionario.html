@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina funcionario</title>
+    <link rel="stylesheet" href="cadFuncionario.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <div class="cabecalho">
+            <ul>
+                <li><a href="home.html" target="_top">HOME</a></li>
+                <li><a href="perfil.html" target="_top">PERFIL</a></li>
+                <li><a href="inicioos.html" target="_top">ORDENS DE SERVIÇO</a></li>
+                <li><a href="funcionario.html" target="_top">FUNCIONÁRIOS</a></li>
+
+            </ul>
+        </div>
+        <div class="pesquisa"><input type="search" name="pesq" id="pesq" placeholder="🔎"></div>
+
+    </header>
+
+    <main>
+        <div class="geral">
+            <div>
+                <div class="logo"><img src="imagens/WhatsApp_Image_2023-11-22_at_16.27.29-removebg-preview.png"></div>
+                <label class="fonte-img"> Editar Perfil <img class="lapis" src="imagens/pencil-solid-24.png"></label>
+            </div>
+
+            <!--Caixa branca-->
+            <div class="dados"> 
+                <div class="dados2">
+                   
+                </div>
+
+                    <div class="subdados3">
+                        <div class="dados3"></div>
+                        <div class="dados3"></div>
+                        <div class="dados3"></div>
+                    </div>
+
+                    <div class="subdados3">
+                        <div class="dados3"></div>
+                        <div class="dados3"></div>
+                        <div class="dados3"></div>
+                    </div>
+                
+            </div>   
+
+            <div class="logo2">
+                <img src="imagens/Tela_gerente-removebg-preview.png" alt="logo2">
+            </div>
+        </div>
+
+        <div class="formularios">
+            <fieldset>
+                <form action="enviar.php" method="post" name="cadastro">
+
+                    <label> Nome do funcionario: </label>
+                    <input type="text" id="nome" name="nome" size="30" placeholder="   Digite seu nome" required />
+                    <br>
+
+                    <label> CPF: </label>
+                    <input type="number" id="cpf" name="cpf" size="" placeholder="   Digite o CPF" required />
+                    <br>
+
+                    <label> CEP: </label>
+                    <input type="number" id="cep" name="cep" size="" placeholder="  Digite o CEP" required />
+                    <br>
+
+                    <label> Telefone: </label>
+                    <input type="number" id="telefone" name="telefone" size="13" placeholder="   Digite o telefone"
+                        required />
+                    <br>
+
+                    <label> Senha inicial: </label>
+                    <input type="text" id="senha" name="senha" size="30" placeholder="   Digite sua senha" required />
+                    <br>
+                </form>
+            </fieldset>
+
+            <fieldset>
+                <form action="enviar.php" method="post" name="cadastro">
+
+                    <label> Sobrenome: </label>
+                    <input type="text" id="sobrenome" name="sobrenome" size="" placeholder="   Digite o sobrenome"
+                        required />
+                    <br>
+
+                    <label> Cargo: </label>
+                    <input type="text" id="cargo" name="cargo" size="" placeholder="   Digite o cargo" required />
+                    <br>
+
+                    <label> Endereço: </label>
+                    <input type="text" id="endereco" name="endereco" size="" placeholder="   Digite seu endereço"
+                        required />
+                    <br>
+
+                    <label> Complemento: </label>
+                    <input type="text" id="nome" name="nome" size="30" placeholder="   Digite o complemento" />
+                    <br>
+
+                    <label> Data de admissão: </label>
+                    <input type="date" id="data" name="data" placeholder="   dd/mm/aaaa" required />
+                    <br>
+                </form>
+            </fieldset>
+
+            <fieldset>
+                <form action="enviar.php" method="post" name="cadastro">
+
+                    <label> RA: </label>
+                    <input type="number" id="ra" name="ra" size="" placeholder="   Digite a RA" required />
+                    <br>
+
+                    <label> UF: </label>
+                    <input type="text" id="uf" name="uf" size="" placeholder="   Digite a UF" required />
+                    <br>
+
+                    <label> Bairro: </label>
+                    <input type="text" id="bairro" name="bairro" size="" placeholder="   Digite o bairro" required />
+                    <br>
+
+                    <label> E-mail: </label>
+                    <input type="email" id="mail" name="mail" placeholder="    Digite o e-mail" />
+                    <br>
+
+                    <label> Código: </label>
+                    <input type="number" id="codigo" name="codigo" placeholder="   Digte o código do funcionario"
+                        required />
+                    <br>
+                </form>
+            </fieldset>
+        </div>
+        </div>
+
+    <section>
+        <button type="submit"><strong>CONCLUIR</strong></button>
+        <button type="submit"><strong>LIMPAR</strong></button>
+    </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>

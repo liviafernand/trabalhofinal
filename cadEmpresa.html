@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina empresa</title>
+    <link rel="stylesheet" href="cadempresa.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <div class="cabecalho">
+            <ul>
+                <li><a href="home.html" target="_top">HOME</a></li>
+                <li><a href="perfil.html" target="_top">PERFIL</a></li>
+                <li><a href="inicioos.html" target="_top">ORDENS DE SERVIÇO</a></li>
+                <li><a href="funcionario.html" target="_top">FUNCIONÁRIOS</a></li>
+            </ul>
+        </div>
+        <div class="pesquisa"><input type="search" name="pesq" id="pesq" placeholder="🔎"></div>
+
+    </header>
+
+    <main>
+        <div class="geral">
+            <div>
+                <div class="logo"><a href="file:///C:/Users/Aluno_Tarde/Desktop/projeto/perfil.html"><img src="imagens/WhatsApp_Image_2023-11-22_at_16.27.29-removebg-preview.png"></a></div>
+                <label class="fonte-img"> Editar Perfil <img class="lapis" src="imagens/pencil-solid-24.png"></label>
+            </div>
+
+            <!--Caixa branca-->
+            <div class="dados"> 
+                <div class="dados2">
+                   
+                </div>
+
+                    <div class="subdados3">
+                        <div class="dados3"></div>
+                        <div class="dados3"></div>
+                        <div class="dados3"></div>
+                    </div>
+
+                    <div class="subdados3">
+                        <div class="dados3"></div>
+                        <div class="dados3"></div>
+                        <div class="dados3"></div>
+                    </div>
+                
+            </div>   
+
+            <div class="logo2"><a href="file:///C:/Users/Aluno_Tarde/Desktop/projeto/home.html">
+                <img src="imagens/Tela_gerente-removebg-preview.png" alt="logo2"></a>
+            </div>
+        </div>
+
+
+        <div class="formularios">
+            <fieldset>
+                <form action="enviar.php" method="post" name="cadastro">
+
+                    <label> Nome fantasia: </label>
+                    <input type="text" id="nome" name="nome" size="30" placeholder="   Digite o nome da empresa" required />
+                    <br>
+
+                    <label> CNPJ: </label>
+                    <input type="number" id="cnpj" name="cnpj" size="" placeholder="   Digite o CNPJ" required />
+                    <br>
+
+                    <label> CEP: </label>
+                    <input type="number" id="cep" name="cep" size="" placeholder="  Digite o CEP" required />
+                    <br>
+
+                    <label> Telefone: </label>
+                    <input type="number" id="telefone" name="telefone" size="13" placeholder="   Digite o telefone"
+                        required />
+                    <br>
+
+                </form>
+            </fieldset>
+
+            <fieldset>
+                <form action="enviar.php" method="post" name="cadastro">
+
+                    <label> Razão Social: </label>
+                    <input type="text" id="razao" name="razao" size="30" placeholder="   Digite a razão social" required />
+                    <br>
+
+                    <label> ID: </label>
+                    <input type="number" id="id" name="id" size="" placeholder="   Digite o ID" required />
+                    <br>
+
+                    <label> Endereço: </label>
+                    <input type="text" id="endereco" name="endereco" size="" placeholder="   Digite seu endereço"
+                        required />
+                    <br>
+
+                    <label> Complemento: </label>
+                    <input type="text" id="nome" name="nome" size="30" placeholder="   Digite o complemento" />
+                    <br>
+
+                </form>
+            </fieldset>
+
+            <fieldset>
+                <form action="enviar.php" method="post" name="cadastro">
+
+                    <label> Inscrição municipal: </label>
+                    <input type="number" id="ra" name="ra" size="" placeholder="   Digite a inscrição municipal" required />
+                    <br>
+
+                    <label> UF: </label>
+                    <input type="text" id="uf" name="uf" size="" placeholder="   Digite a UF" required />
+                    <br>
+
+                    <label> Bairro: </label>
+                    <input type="text" id="bairro" name="bairro" size="" placeholder="   Digite o bairro" required />
+                    <br>
+
+                    <label> E-mail: </label>
+                    <input type="email" id="mail" name="mail" placeholder="    Digite o e-mail" />
+                    <br>
+                    
+                </form>
+            </fieldset>
+        </div>
+    </div>    
+
+    <section>
+        <button type="submit"><strong>ENVIAR</strong></button>  
+    </section>
+
+    <section class="link">
+        <a href="cadFuncionario.html" >Cadastrar funcionários <img src="imagens/right-arrow-alt-regular-24.png"></a>
+    </section>
+
+    </main>
+
+    <footer>
+
+        
+    </footer>
+
+</body>
+
+</html>

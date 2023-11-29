@@ -1,0 +1,190 @@
+@charset 'utf-8';
+
+*{ 
+    margin: 0;
+    padding: 0;
+    border: none;   
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62,5%;
+    overflow: hidden;
+}
+
+body{
+    background-color: #004aad;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 90px;
+}
+
+
+
+.cabecalho > ul > li > a{
+    color: #004aad;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.cabecalho > ul > li >a:hover{
+    color: rgb(2, 10, 39);
+}
+
+.pesquisa {
+    float: right;
+    margin-top: 35px;
+    margin-right: 65px;
+}
+
+.pesquisa input {
+    border: 1px solid #004aad;
+    height: 25px;
+    width: 250px;
+    border-radius: 40px;
+}
+.icon img { 
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 50px;
+    height: 70px;
+    float: left;
+}
+
+.logo img{
+    cursor: pointer;
+    margin-top: px;
+    height: 100px;
+    float: right;
+}
+
+.aux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tela{
+    margin-left: 80px;
+    margin-top: 70px;
+    width: 70vw;
+    height: 66vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    border-bottom: 1px solid #000000;
+}
+
+.ferramentas {
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    height: 381px;
+    background-color: #D9D9D9;
+}
+
+.ferramentas img {
+    
+    cursor: pointer;
+    width: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+
+
+.aux0 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.template {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+    height: 350px;
+    border: 1px solid #615f5f;
+}
+
+.template h1{
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.template .campos .dados {
+    width: 150px;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #424040;
+     
+}
+.template .campos .dados2 {
+    float: right;
+    display: flex;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #424040;
+     
+}
+
+.template .campos{
+    align-items: center;
+    display: flex;
+}
+
+.campos .dados input {
+    border: 1px solid #26272876;
+    height: 15px;
+    width: 130px;
+    border-radius: 0px;
+}
+
+.campos .dados2 input {
+    border: 1px solid #26272876;
+    height: 15px;
+    width: 50px;
+    border-radius: 0px;
+}
+
+.aux1 {
+    display: flex;
+}
+
+.ck h1 {
+    margin-top: 5px;
+}
+
+.ck input {
+    width: 100px;
+    border: 1px solid black;
+   flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.ck table{
+    margin-top: 30px;
+}
